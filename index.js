@@ -183,7 +183,7 @@ console.log(removeCourseFromStudent(students[6], "Science"));
 
 function findStudentById(studentId, students) {
   let s = {};
-  s = students.filter((student) => student.id === studentId);
+  s = students.find((student) => student.id === studentId);
   return s;
 }
 
